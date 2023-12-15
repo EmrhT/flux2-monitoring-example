@@ -18,7 +18,7 @@ spec:
   # https://github.com/grafana/loki/blob/main/production/helm/loki/values.yaml
   values:
     promtail:
-      enabled: true
+      enabled: false
       initContainer:
         enabled: true
         fsInotifyMaxUserInstances: 4

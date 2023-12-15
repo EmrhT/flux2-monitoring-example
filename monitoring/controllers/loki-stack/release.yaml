@@ -19,6 +19,9 @@ spec:
   values:
     promtail:
       enabled: true
+      initContainer:
+        enabled: true
+        fsInotifyMaxUserInstances: 16
     loki:
       enabled: true
       isDefault: false

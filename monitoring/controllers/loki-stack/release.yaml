@@ -21,7 +21,7 @@ spec:
       enabled: true
       initContainer:
         enabled: true
-        fsInotifyMaxUserInstances: 16
+        fsInotifyMaxUserInstances: 4
     loki:
       enabled: true
       isDefault: false
